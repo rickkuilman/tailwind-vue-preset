@@ -20,7 +20,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "RickKuilman\\TailwindVuePreset": "src/"
+      "RickKuilman\\TailwindVuePreset\\": "src/"
     }
   },
   "extra": {
