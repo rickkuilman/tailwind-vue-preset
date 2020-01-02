@@ -1,0 +1,33 @@
+{
+  "name": "rickkuilman/tailwind-vue-preset",
+  "description": "Laravel frontend preset with TailwindCSS, PurgeCSS and Vue.js",
+  "keywords": [
+    "laravel",
+    "laravel preset",
+    "tailwind",
+    "tailwindcss",
+    "purgecss",
+    "vue"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rick Kuilman",
+      "email": "info@rickkuilman.nl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "RickKuilman\\TailwindVuePreset": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RickKuilman\\TailwindVuePreset\\TailwindVuePresetServiceProvider"
+      ]
+    }
+  }
+}
