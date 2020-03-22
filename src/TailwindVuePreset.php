@@ -3,7 +3,7 @@
 namespace RickKuilman\TailwindVuePreset;
 
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Foundation\Console\Presets\Preset as LaravelPreset;
+use Laravel\Ui\Presets\Preset as LaravelPreset;
 use Illuminate\Support\Facades\File;
 
 class TailwindVuePreset extends LaravelPreset
