@@ -2,8 +2,8 @@
 
 namespace RickKuilman\TailwindVuePreset;
 
-use Illuminate\Foundation\Console\PresetCommand;
 use Illuminate\Support\ServiceProvider;
+use Laravel\Ui\UiCommand;
 
 class TailwindVuePresetServiceProvider extends ServiceProvider
 {
@@ -14,7 +14,7 @@ class TailwindVuePresetServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        PresetCommand::macro('tailwind-vue', function (PresetCommand $command) {
+        UiCommand::macro('tailwind-vue', function (UiCommand $command) {
 
             TailwindVuePreset::install();
 
