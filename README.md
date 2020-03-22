@@ -1,7 +1,7 @@
 ![Tailwind Vue PurgeCSS](https://user-images.githubusercontent.com/7881219/71671696-ff8ad900-2d73-11ea-8aa5-6b96e719b6d7.png)
 # Tailwind Vue frontend preset
 
-A Laravel 6.x frontend preset including:
+A Laravel 7.x frontend preset including:
 
 * [TailwindCSS](https://tailwindcss.com/), a utility-first CSS framework
 * [PurgeCSS](https://www.purgecss.com/), a tool to remove unused CSS
