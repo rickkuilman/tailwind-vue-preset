@@ -24,7 +24,7 @@ Run the following commands to use the preset
 
 ```bash
 # Apply preset
-php artisan preset tailwind-vue
+php artisan ui tailwind-vue
 
 # Compile assets
 npm install && npm run dev
